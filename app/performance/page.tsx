@@ -1,5 +1,5 @@
-export function performancePage() {
+export default function performancePage() {
     return <div>
-        performancePage
+        performance Page
     </div>
 }
