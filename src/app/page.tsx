@@ -1,8 +1,11 @@
 import Hero from '../components/hero';
-import homeImg from 'public/home1.jpg';
+import homeImg from 'public/home.jpg';
 
-export default function Home() {
+export default async function Home() {
+
   return (
-    <Hero imgData={homeImg} imgAlt='ronaldo' title='realmadrid' />
+    <div>
+      <Hero imgData={homeImg} imgAlt='ronaldo' title='realmadrid' />
+    </div>
   );
 }

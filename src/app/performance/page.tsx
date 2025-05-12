@@ -1,4 +1,4 @@
-import perImg from 'public/home.jpg';
+import perImg from 'public/home1.jpg';
 import Hero from '../../components/hero';
 
 export default function performancePage() {
