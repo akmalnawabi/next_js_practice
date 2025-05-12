@@ -12,7 +12,7 @@ export default async function scalePage() {
         <div>
             <Hero imgData={scaleImg} imgAlt='ronaldo' title='beckham' />
             <Snippet />
-            <div>
+            <div className='text-center my-1 font-bold'>
                 {renderedSnippets}
             </div>
         </div>
