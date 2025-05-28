@@ -10,6 +10,7 @@ const header = () => {
                     <Link href='performance'>performance</Link>
                     <Link href='reliability'>reliability</Link>
                     <Link href='scale'>scale</Link>
+                    <Link href='user'>Users</Link>
                 </div>
             </nav>
         </div>
